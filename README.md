@@ -1,6 +1,8 @@
 # RSA-key-sharding
 The RSA.js program generates a RSA public and private key, writes the public key to 'public.txt' and shards the private key into k of n shares, taking k as an argument on the CLI, writing each shard to its respective Shard[k].txt file
 
+Run `npm install`
+
 Run the program using the command `node ./RSA.js k` where k is the number of shards.
 
 To run the unit test, use `npm run test`, which runs the RSA.test.js file using Jest. 
